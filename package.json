@@ -1,0 +1,17 @@
+{
+  "name": "w-atom",
+  "version": "1.0.0",
+  "description": "Generate .css markup file",
+  "main": "atom/atom.ts",
+  "scripts": {},
+  "keywords": [
+    "atom", "markup", "css", "generate"
+  ],
+  "bin": "atom/cli.js",
+  "author": "Alex Bronshtein",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {},
+  "types": "atom/atom.d.ts",
+  "prepublish": "tsc"
+}
