@@ -11,16 +11,12 @@ Classes will be generated form yor .css file with variables that's look like
 }
 ```
 ```javascript
-import Atom from 'w-atom';
-
-const atom = new Atom({
-	outputFile: 'Output file',
-	variablesCss: 'File, where u store your css variable',
-});
-
-atom.generate();
+w-atom --variables src/assets/variables.css --output src/assets/markup.css
 ```
-
+| Option name  | Option type |
+| ------------- | ------------- |
+| variables  | Path to .css file with variables  |
+| output  | Path to output file  |
 Result will be in .css file, like (margin and pading):
 ```angular2html
 .mt-1 {
